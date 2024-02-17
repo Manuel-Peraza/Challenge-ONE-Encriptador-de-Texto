@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+section {
+    width: 45%;
+}
+
+input {
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#encrypt-button {
+    background-color: #007BFF;
+}
+
+#encrypt-button:hover {
+    background-color: #0056b3;
+}
+
+#decrypt-button {
+    background-color: #28A745;
+}
+
+#decrypt-button:hover {
+    background-color: #1e7e34;
+}
+
+#copy-button {
+    background-color: #17a2b8;
+}
+
+#copy-button:hover {
+    background-color: #117a8b;
+}
+
+#output-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    height: fit-content;
+}
